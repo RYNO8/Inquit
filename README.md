@@ -12,6 +12,8 @@ The .app file is coming soon
 Note:
 Don't spam enter. It will lag (it takes longer to send than it does to press enter)
 
+Don't spam through copying chunks of text in. People will make a new room without you!
+
 It is possible to fake your username, so someone may not necessarily be who they say they are...
 
 Pls post bugs in issues. I will hopefully fix it soon.
@@ -28,6 +30,8 @@ I felt that it should be quite self-explanatory
 To start a new room, enter a unique name or type new to get a generated name
 
 To join a room, enter the code given to you.
+
+Cool function (this wasn't intentional): drag a file or folder from file explorer to Inquit. It will copy the link.
 
 .
 
