@@ -40,6 +40,8 @@ When entering a room, you can only view the last 5 messages.
 
 Rooms last for 24 hours after the last message. It would cost around $2 if you want it to last for 30 days. 
 
+Fn-11 toggles between fullscreen and not fullscreen?
+
 Cool function (this wasn't intentional): drag a file or folder from file explorer to Inquit. It will copy the link.
 
 .
