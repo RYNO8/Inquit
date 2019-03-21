@@ -36,6 +36,10 @@ To start a new room, enter a unique name or type new to get a generated name
 
 To join a room, enter the code given to you.
 
+When entering a room, you can only view the last 5 messages.
+
+Rooms last for 24 hours after the last message. It would cost around $2 if you want it to last for 30 days. 
+
 Cool function (this wasn't intentional): drag a file or folder from file explorer to Inquit. It will copy the link.
 
 .
