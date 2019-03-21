@@ -10,6 +10,9 @@ The .app file is coming soon
 .
 
 Note:
+
+I can't fix a bad gateway error (502 or 504). To simplify, its a problem with the wifi.
+
 Don't spam enter. It will lag (it takes longer to send than it does to press enter)
 
 Don't spam through copying chunks of text in. People will make a new room without you!
