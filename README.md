@@ -16,6 +16,8 @@ Don't spam through copying chunks of text in. People will make a new room withou
 
 It is possible to fake your username, so someone may not necessarily be who they say they are...
 
+Try to use a common room name, since people could guess it.
+
 Pls post bugs in issues. I will hopefully fix it soon.
 
 Sorry for the epilepsy in advance. Hehe
