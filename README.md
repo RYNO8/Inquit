@@ -1,11 +1,19 @@
 # Inquit - Ryan Ong and Nathan Jones
 
 
-Current version: 1.0
+Current version: 1.1
 
-Visit website to download .exe
+The .app file is coming soon (hopefully)
 
-The .app file is coming soon
+.
+
+----------PATCH v1.1----------
+
+yay! v2 should come out within the next month. Have fun waiting!
+
+- fixed bugs with keypress (e.g. ctrl-left, f1, greek characters)
+
+- fixed copy and paste bug
 
 .
 
@@ -15,7 +23,6 @@ I can't fix a bad gateway error (502 or 504). To simplify, its a problem with th
 
 Don't spam enter. It will lag (it takes longer to send than it does to press enter)
 
-Don't spam through copying chunks of text in. People will make a new room without you!
 
 It is possible to fake your username, so someone may not necessarily be who they say they are...
 
@@ -40,9 +47,7 @@ When entering a room, you can only view the last 5 messages.
 
 Rooms last for 24 hours after the last message. It would cost around $2 if you want it to last for 30 days. 
 
-Fn-11 toggles between fullscreen and not fullscreen?
-
-Cool function (this wasn't intentional): drag a file or folder from file explorer to Inquit. It will copy the link.
+Fn-11 / Alt-Enter toggles between fullscreen and not fullscreen?
 
 .
 
