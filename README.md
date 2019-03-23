@@ -15,6 +15,8 @@ yay! v2 should come out within the next month. Have fun waiting!
 
 - fixed copy and paste bug
 
+- I've disabled non ascii keys. hehe!
+
 .
 
 Note:
