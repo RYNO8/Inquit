@@ -23,10 +23,9 @@ I can't fix a bad gateway error (502 or 504). To simplify, its a problem with th
 
 Don't spam enter. It will lag (it takes longer to send than it does to press enter)
 
-
 It is possible to fake your username, so someone may not necessarily be who they say they are...
 
-Try to use a common room name, since people could guess it.
+Try not to use a common room name, since people could guess it.
 
 Pls post bugs in issues. I will hopefully fix it soon.
 
