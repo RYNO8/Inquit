@@ -11,17 +11,23 @@ The .app file is coming soon (hopefully)
 
 yay! v2 should come out within the next month. Have fun waiting!
 
-- fixed bugs with keypress (e.g. ctrl-left, f1, greek characters)
+- Fixed bugs with keypress (e.g. ctrl-left, f1, greek characters)
 
-- fixed copy and paste bug
+- Fixed copy and paste bug
 
 - I've disabled non ascii keys. hehe!
+
+- Do you like the new icon?
 
 .
 
 Note:
 
 I can't fix a bad gateway error (502 or 504). To simplify, its a problem with the wifi.
+
+When entering a room, you can only view the last 5 messages.
+
+Rooms last for 24 hours after the last message. It would cost around $2 if you want it to last for 30 days. 
 
 Don't spam enter. It will lag (it takes longer to send than it does to press enter)
 
@@ -43,10 +49,6 @@ I felt that it should be quite self-explanatory
 To start a new room, enter a unique name or type new to get a generated name
 
 To join a room, enter the code given to you.
-
-When entering a room, you can only view the last 5 messages.
-
-Rooms last for 24 hours after the last message. It would cost around $2 if you want it to last for 30 days. 
 
 Fn-11 / Alt-Enter toggles between fullscreen and not fullscreen?
 
