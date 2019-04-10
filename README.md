@@ -10,7 +10,7 @@ The .app file is coming soon (hopefully...)
 
 For those not going to `Sydney Boys`, get me the name of your school wifi, and I can make a version of this for you.
 
-(e.g. ![alt text](github.com/RYNO8/Inquit/raw/master/wifi%20example.PNG))
+(e.g. ![alt text](https://github.com/RYNO8/Inquit/blob/master/wifi%20example.PNG))
 
 # Version 1.1 is out!
 
