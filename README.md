@@ -10,8 +10,6 @@ The .app file is coming soon (hopefully...)
 
 For those not going to `Sydney Boys`, get me the name of your school wifi, and I can make a version of this for you.
 
-(e.g. ![alt text](https://github.com/RYNO8/Inquit/blob/master/wifi%20example.PNG))
-
 # Version 1.1 is out!
 
 yay! v2 should come out soon (that is, before half-life 3). Have fun waiting!
