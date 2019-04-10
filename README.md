@@ -3,11 +3,12 @@
 Current version: 1.1
 
 Click here for the windows executable download: https://github.com/RYNO8/Inquit/raw/master/Inquit%20v1.1.exe
-The .app file is coming soon (hopefully)
 
-# ----------PATCH v1.1----------
+The .app file is coming soon (hopefully...)
 
-yay! v2 should come out within the next month. Have fun waiting!
+# Version 1.1 is out!
+
+yay! v2 should come out soon (that is, before half-life 3). Have fun waiting!
 
 - Fixed bugs with keypress (e.g. ctrl-left, f1, greek characters)
 
@@ -17,7 +18,7 @@ yay! v2 should come out within the next month. Have fun waiting!
 
 - Do you like the new icon?
 
-# Note:
+# Note that:
 
 I can't fix a bad gateway error (502 or 504). To simplify, its a problem with the wifi.
 
