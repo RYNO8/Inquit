@@ -1,13 +1,11 @@
 # Inquit - Ryan Ong and Nathan Jones
 
-
 Current version: 1.1
 
+Click here for the windows executable download: https://github.com/RYNO8/Inquit/raw/master/Inquit%20v1.1.exe
 The .app file is coming soon (hopefully)
 
-.
-
-----------PATCH v1.1----------
+# ----------PATCH v1.1----------
 
 yay! v2 should come out within the next month. Have fun waiting!
 
@@ -19,9 +17,7 @@ yay! v2 should come out within the next month. Have fun waiting!
 
 - Do you like the new icon?
 
-.
-
-Note:
+# Note:
 
 I can't fix a bad gateway error (502 or 504). To simplify, its a problem with the wifi.
 
@@ -38,26 +34,3 @@ Try not to use a common room name, since people could guess it.
 Pls post bugs in issues. I will hopefully fix it soon.
 
 Sorry for the epilepsy in advance. Hehe
-
-.
-
-----------HELP----------
-
-I felt that it should be quite self-explanatory
-
-
-To start a new room, enter a unique name or type new to get a generated name
-
-To join a room, enter the code given to you.
-
-Fn-11 / Alt-Enter toggles between fullscreen and not fullscreen?
-
-.
-
-Left/right - move cursor
-
-Backspace, del - delete character
-
-Esc - exit program politely
-
-Enter - send message
