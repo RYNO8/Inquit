@@ -2,9 +2,9 @@
 
 Current version: 1.1
 
-Share this link http://bit.do/inquit) link to access this page quickly: 
+Share this link ((http://bit.do/inquit)) to access the current page easily 
 
-[**Windows executable download:**](https://github.com/RYNO8/Inquit/raw/master/Inquit%20v1.1.exe)
+[**Windows executable download**](https://github.com/RYNO8/Inquit/raw/master/Inquit%20v1.1.exe)
 
 The .app file is coming soon (hopefully...)
 
