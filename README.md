@@ -2,11 +2,13 @@
 
 Current version: 1.1
 
-Share this link ((http://bit.do/inquit)) to access the current page easily 
+Inquit 1.1 is a free messaging app, which thankfully still works at school. It is based on a pure python back end and front end. Unfortunately, you may not have the code. Try out the application exe below
 
 [**Windows executable download**](https://github.com/RYNO8/Inquit/raw/master/Inquit%20v1.1.exe)
 
-The .app file is coming soon (hopefully...)
+Share this link (http://bit.do/inquit) to access the current page easily 
+
+The .app file for Mac users is coming soon (hopefully...)
 
 For those not going to `Sydney Boys`, get me the name of your school wifi, and I can make a version of this for you.
 
