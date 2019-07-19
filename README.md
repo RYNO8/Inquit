@@ -17,7 +17,7 @@ Inquit is a free messaging app, which thankfully still works at school. It is ba
 
 [**Windows executable download**](https://github.com/RYNO8/Inquit/raw/master/inquit20.exe)
 
-[**Apple executable download**](https://github.com/RYNO8/Inquit/raw/master/Inquit20.pkg)
+[**Apple executable download**](https://github.com/RYNO8/Inquit/raw/master/inquit20.pkg)
 
 Share this link (http://bit.do/inquit) to access the current page easily 
 
