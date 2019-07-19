@@ -21,7 +21,6 @@ Inquit is a free messaging app, which thankfully still works at school. It is ba
 
 make sure to get the Image files as well. 
 [**Image 1**](https://github.com/RYNO8/Inquit/blob/master/Inquit%20Icon%20Long.png)
-
 [**Image 2**](https://github.com/RYNO8/Inquit/blob/master/inquit_icon.ico)
 
 Share this link (http://bit.do/inquit) to access the current page easily 
