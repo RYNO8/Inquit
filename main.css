@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Helvetica+Neue");
+
+
+body {
+	background-color: rgba(117, 198, 255, 0.25);
+	font-family: Helvetica Neue;
+	font-size: 10px;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+.intro {
+	font-weight: bold;
+	font-size: 30px;
+	color: rgb(70, 70, 70);
+	margin-left: 5px;
+	text-align: center;
+}
+
+.header {
+	margin: auto;
+	margin-top: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+	/*background-color: rgb(117, 198, 255);*/
+	background-image: linear-gradient(rgb(117, 198, 255), rgb(36, 82, 115));
+	color: white;
+	padding-bottom: 15px;
+}
+
+.content {
+	margin-left: 10%;
+	font-size: 15px;
+}
+
+.header-link {
+	background-color: rgba(200, 200, 200, 0.7);
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header-link > a > img {
+	width: 10%;
+	height: auto;
+}
+
+.section {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	padding-top: 28px;
+	padding-bottom: 7.5px;
+}
+
+.header-link > a {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.section:hover {
+	text-decoration: underline;
+}
+
+.onpage {
+	background-color: rgba(200, 200, 200, 1);
+}
+
+.box {
+	vertical-align: top;
+	text-align: left;
+}
+
+.versions {
+	margin-left: 10%;
+	font-size: 15px;
+}
+
+
+h2 {
+	font-size: 30px;
+}
+
+.downloads {
+	margin-top: 100px;
+}
