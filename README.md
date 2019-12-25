@@ -15,9 +15,9 @@ Current version: 2.2
 
 Inquit is a free messaging app, which thankfully still works at school. It is based on a pure python back end and front end. Unfortunately, you may not have the code. Try out the application exe below
 
-[**Windows executable download**](https://github.com/RYNO8/Inquit/raw/master/inquit20.exe)
+[**Windows executable download**](https://github.com/RYNO8/Inquit/raw/master/inquit2.2.exe)
 
-[**Apple executable download**](https://github.com/RYNO8/Inquit/raw/master/inquit20.pkg)
+[**Apple executable download**]
 
 make sure to get the Image files as well. 
 [**Image 1**](https://github.com/RYNO8/Inquit/blob/master/Inquit%20Icon%20Long.png)
