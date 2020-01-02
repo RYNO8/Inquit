@@ -22,7 +22,7 @@ def _receive(self, doNotify):
     
     while threading.main_thread().isAlive():
         response = self.net.post("messages", room_name=self.roomName, time_limit=str(timeLimit))
-        timeLimit = int(time.time() - 100) #back 100 seconds, so no recent messages will be missed
+        #timeLimit = int(time.time() - 100) #back 100 seconds, so no recent messages will be missed
         
         if not response:
             print("ERROR", "no response")

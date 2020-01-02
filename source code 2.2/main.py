@@ -1,3 +1,14 @@
+"""\
+TODO:
+ - merge settings files
+ - remove username setting
+ - improve dark mode
+ - datetime tag centered
+ - feature: timetables / student portal api
+ - get version from /ping
+
+"""
+
 import auth_user
 import error
 import gui
@@ -25,7 +36,7 @@ else:
         net.setToken(settings.token)
         
         root = Tk()
-        inquit = gui.Inquit(root, net, settings, text=text, state="")
+        inquit = gui.Inquit(root, net, settings, text=text, state="maximised")
         
         root.mainloop()
 

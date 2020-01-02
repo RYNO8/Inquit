@@ -7,8 +7,9 @@ import pickle
 from datetime import datetime
 from dateutil import tz
 import sys
+import platform
 
-__all__ = ["LONG_ICON", "SHORT_ICON", "CURR_VERSION", "SETTINGS_FILE", "SSID_FILE", "MASTER_KEY", "DEFAULT",
+__all__ = ["LONG_ICON", "SHORT_ICON", "IS_WINDOWS", "CURR_VERSION", "SETTINGS_FILE", "SSID_FILE", "MASTER_KEY", "DEFAULT",
            "getFILEPATH", "getFILENAME", "runThread", "runTask", "formatTime", "addValue", "addImage", "colourConversion",
            "Settings", "loadPreferences", "savePreferences", "loadSSID", "saveSSID"]
 
@@ -17,14 +18,9 @@ def resource_path(relative_path):
         return os.path.join(sys._MEIPASS, relative_path)
     return os.path.join(os.path.abspath("."), relative_path)
 
-DEBUG_MODE = "debug.txt" in os.listdir()
-if DEBUG_MODE: #running from debugging python
-    LONG_ICON = "Inquit_Icon_Long.png"
-    SHORT_ICON = "Inquit_Icon.ico"
-else: #running from exe
-    LONG_ICON = resource_path(".img\\Inquit_Icon_Long.png")
-    SHORT_ICON = resource_path(".img\\Inquit_Icon.ico")
-    
+LONG_ICON = resource_path(".img\\Inquit_Icon_Long.png") #DONT change this
+SHORT_ICON = resource_path(".img\\Inquit_Icon.ico") #or this
+IS_WINDOWS = (platform.system() == "Windows")
 CURR_VERSION = 2.2
 SETTINGS_FILE = "preferences.txt"
 SSID_FILE = "SSID.txt"

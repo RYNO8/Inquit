@@ -1,8 +1,9 @@
 import zroya
 import os
-from helpers import runThread, runTask, SHORT_ICON
+from helpers import runThread, runTask, SHORT_ICON, IS_WINDOWS
 from copy import deepcopy
 import time
+import platform
 
 #TODO:: zroya.hide(id) not working
 
@@ -15,7 +16,10 @@ class Notification:
         self.window.after(200, self.checkShow)
         
     def notify(self, *args):
-        runThread(self.notifyWindows, *args)
+        if IS_WINDOWS:
+            runThread(self.notifyWindows, *args)
+        else:
+            runThread(self.notifyMac, *args)
         
     def notificationHandler(self, *args):
         #BIG WARNING: errors do not show up

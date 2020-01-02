@@ -1,6 +1,7 @@
 import subprocess
 import os
 import sys
+from helpers import IS_WINDOWS
 
 # Create a set of arguments which make a ``subprocess.Popen`` (and
 # variants) call work with or without Pyinstaller, ``--noconsole`` or
@@ -53,12 +54,15 @@ def subprocess_args(include_stdout=True):
     return ret
 
 def showssid():
-    #x = subprocess.check_output(["netsh", "WLAN", "show", "interfaces"], **subprocess_args(False)).decode(encoding='iso-8859-1').split()
-    x = subprocess.check_output(['/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport','-I'], **subprocess_args(False)).decode(encoding='iso-8859-1').split()
-    try:
-        return x[x.index('SSID') + 2]
-    except ValueError:
-        return "None"
+    if IS_WINDOWS:
+        x = subprocess.check_output(["netsh", "WLAN", "show", "interfaces"], **subprocess_args(False)).decode(encoding='iso-8859-1').split()
+        try:
+            return x[x.index('SSID') + 2]
+        except ValueError:
+            return "None"
+    else:
+        x = subprocess.check_output(['/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport','-I']).decode()
+        print(x)
 
 # A simple test routine. Compare this output when run by Python, Pyinstaller,
 # and Pyinstaller ``--noconsole``.

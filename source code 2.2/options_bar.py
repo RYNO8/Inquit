@@ -58,8 +58,7 @@ def insertOption(master, settings, rowNum, text):
     label = Label(master, text=text, font=(settings.font, settings.fontsize))
     label.grid(column=0, row=rowNum, sticky="w")
 
-class Customise(master, settings, save):
-    WIDTH = 30
+def customise(master, settings, save, WIDTH=30):
     customiseMenu = Toplevel()
     customiseMenu.title("Settings")
     customiseMenu.resizable(False, False)

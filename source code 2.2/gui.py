@@ -1,9 +1,8 @@
-# TODO: do styles for settings: https://tkdocs.com/tutorial/styles.html
 from tkinter import Frame, Menu, Tk, PhotoImage, Button
 from tkinter.ttk import Style, Notebook
 import os
 
-from helpers import loadPreferences, savePreferences, colourConversion, runThread, runTask, Settings
+from helpers import colourConversion, Settings
 import loading
 from tab import Tab
 from get_room import GetRoom
@@ -99,7 +98,7 @@ state = "fullscreen" "maximised" ""
         
         #SECTION 1 - get user input (get roomName)
         #print(self.settings.data)
-        mainframe.after(100, lambda :self.saveSettings(self.settings, initTab=tabIndex))
+        mainframe.after(1, lambda :self.saveSettings(self.settings, initTab=tabIndex))
         gui = GetRoom(mainframe, self.net, self.settings.prevRoom, text=text)
         self.tabs.insert(tabIndex, (mainframe, gui))
         gui.mainloop()
@@ -118,6 +117,7 @@ state = "fullscreen" "maximised" ""
         del self.tabs[tabIndex]
         self.tabs.insert(tabIndex, (mainframe, tab))
         self.saveSettings(self.settings, initTab=tabIndex)
+        tab.mainloop()
             
     def createNotebook(self):
         style = Style()
@@ -131,7 +131,6 @@ state = "fullscreen" "maximised" ""
         self.notebook = Notebook(self.master, width=10000, height=10000, style="CustomNotebook")
         self.notebook.enable_traversal()
         self.notebook.pack()
-        
         
     def createMenu(self):
         self.menubar = Menu(self.master)
@@ -150,6 +149,7 @@ state = "fullscreen" "maximised" ""
     def saveSettings(self, settings, initTab=None):
         self.settings = Settings(settings) #WARNING: override
         self.newTabButton.configure(font=(self.settings.font, self.settings.fontsize))
+        self.master.configure(bg=colourConversion(self.settings.theme)["bg"])
         
         flag = False if initTab == None else True
         #print(flag, initTab)
@@ -176,22 +176,23 @@ state = "fullscreen" "maximised" ""
 if __name__ == "__main__":
     from net import Net
     from copy import deepcopy
-    from helpers import loadToken, loadPreferences, Settings
+    from helpers import loadPreferences
     """style = Style()
-    currTheme = style.theme_use()r
+    currTheme = style.theme_use()
     
     print(style.layout("TButton"))
     style.map("TButton",
                background=[("disabled","#d9d9d9"), ("active","#ececec")],
                foreground=[("disabled","#a3a3a3")],
                relief=[("pressed", "!disabled", "sunken")])"""
+    s = loadPreferences()
     
     net = Net()
-    net.setToken(loadToken())
+    net.setToken(s.token)
     
     root = Tk()
-    inquit = Inquit(root, net, Settings(loadPreferences()), state="")
+    inquit = Inquit(root, net, s, state="")
     root.mainloop()
-
-    savePreferences(inquit.settings)
+    
+    print(inquit.settings)
 

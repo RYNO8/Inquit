@@ -1,6 +1,6 @@
 from helpers import addValue, Settings, colourConversion, LONG_ICON, DEFAULT
 
-from tkinter import Tk, Frame, Text, PhotoImage, Label
+from tkinter import Toplevel, Frame, Text, PhotoImage, Label
 import sys
 
 __all__ = ["main"]
@@ -10,7 +10,7 @@ def main(errorMsg, wH=300, wW=400):
     settings = globals().get("settings", Settings(DEFAULT))
     
     #the following is basically the same as options_bar.windowTemplate, but without requiring a first window
-    root = Tk()
+    root = Toplevel()
     root.tk_setPalette(background=colourConversion(settings.theme)["bg"])
     root.title("Inquit - Error")
     sH, sW = root.winfo_screenheight(), root.winfo_screenwidth()

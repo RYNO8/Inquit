@@ -3,7 +3,7 @@ from tkinter.ttk import Progressbar
 from random import choice
 import time
 
-from helpers import runTask, addValue, colourConversion, LONG_ICON, SHORT_ICON, CURR_VERSION, DEBUG_MODE
+from helpers import runTask, addValue, colourConversion, LONG_ICON, SHORT_ICON, CURR_VERSION
 from custom_widgets import HyperlinkManager
 from net import Net
 
@@ -81,10 +81,7 @@ class Loading:
         addValue(self.textbox, "click here to submit a random message\n\n", (*hyperlink.add(self.JOKE_SUBMIT), "comment"))
         
     def logic(self):
-        if DEBUG_MODE:
-            time.sleep(0.1)
-        else:
-            time.sleep(2)
+        time.sleep(2)
         self.success, self.text = reportVersion(self.net)
         
     def saveSettings(self, settings):
@@ -118,6 +115,7 @@ def main(net, settings):
     try:
         return app.success, app.text
     except AttributeError:
+        raise SystemExit
         return None, "Abrupt User Exit"
 
 if __name__ == "__main__":
